@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./js/index.js"></script>
-  <title>Shopping cart</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Shopping cart</title>
 </head>
-<body>
+
+<body id="body">
+	<div id="titel"><span>Fans Merchandizing Shop</span></div>
+	<div class="container">
+		<div><span id="productName">Bubble-Head</span></div>
+		<div><span id="price">$ 25.00</span></div>
+		<div>
+			<span>QTY</span>
+			<input type="text" id="qtyInput">
+		</div>
+		<div><span id="totalPrice">$ 0.00</span></div>
+		<div><button id="delete">Delete</button></div>
+	</div>
+	<div class="container2">
+		<div><span id="productName2">Something</span></div>
+		<div><span id="price2">$ 5.00</span></div>
+		<div>
+			<span>QTY</span>
+			<input type="text" id="qtyInput2">
+		</div>
+		<div><span id="totalPrice2">$ 0.00</span></div>
+		<div><button id="delete2">Delete</button></div>
+	</div>
+	
+	<div class="calculate"> <button id="calcButton">Calculate Prices</button> </div>
+	
+	<h2>Total Price: <span>0€</span></h2>
+	
 </body>
+
+<script type="text/javascript" src="js/script.js"></script>
+
 </html>
