@@ -3,11 +3,10 @@ body {
       margin: 20px;
 }
 
-.container, .container2 {
+.container {
       display: flex;
       justify-content: space-around;
-	padding: 30px;
-	/* flex-grow: 1fr; */
+      padding: 30px;
 }
 
 #titel {
@@ -16,17 +15,14 @@ body {
       margin-bottom: 20px;
 }
 
-.container div {
-      /* border: solid 1px black; */
-}
-
-.container div #delete , .container2 div #delete2{
+.delete {
       background-color: red;
       color: whitesmoke;
       border-radius: 20%;
 }
 
-.calculate, h2 {
+.calculate,
+h2 {
       text-align: center;
 }
 
@@ -34,6 +30,3 @@ body {
       background-color: rgb(32, 175, 91);
       color: whitesmoke;
 }
-
-
-
